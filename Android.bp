@@ -3424,6 +3424,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libhalide_hexagon_host",
+	owner: "oneplus",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libhalide_hexagon_host.so"],
+			shared_libs: ["liblog", "libcdsprpc", "libc", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "liblistensoundmodel2",
 	owner: "oneplus",
 	strip: {
