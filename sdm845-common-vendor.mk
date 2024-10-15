@@ -343,6 +343,7 @@ PRODUCT_PACKAGES += \
     libGLESv2_adreno \
     libq3dtools_adreno \
     libq3dtools_esx \
+    android.hardware.bluetooth@1.0-impl-qti \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     vendor.qti.hardware.bluetooth_sar@1.1-impl \
     vendor.qti.hardware.btconfigstore@1.0-impl \
@@ -362,14 +363,17 @@ PRODUCT_PACKAGES += \
     libOmxVpp \
     libOmxWmaDec \
     libOpenCL \
+    libQSEEComAPI \
     libVkLayer_q3dtools \
     libadreno_utils \
     libadsprpc \
     libbluetooth_audio_session_qti \
     libbluetooth_audio_session_qti_2_1 \
+    libbtnv \
     libc2d30_bltlib \
     libcdsp_default_listener \
     libcdsprpc \
+    libconfigdb \
     libdiag \
     libdsi_netctrl \
     libdsutils \
@@ -380,8 +384,10 @@ PRODUCT_PACKAGES += \
     libidl \
     libllvm-glnext \
     libllvm-qcom \
+    libmdmdetect \
     libmdsprpc \
     libmmosal-vendor \
+    libnetmgr \
     libopf \
     libperfconfig \
     libperfgluelayer \
@@ -398,6 +404,7 @@ PRODUCT_PACKAGES += \
     libqmi_common_so \
     libqmi_csi \
     libqmi_encdec \
+    libqmi_legacy \
     libqmiservices \
     libqti-perfd-client \
     libqti-perfd \
@@ -417,6 +424,7 @@ PRODUCT_PACKAGES += \
     libvpphcp \
     libvpphvx \
     libvpplibrary \
+    libxml \
     vendor.oneplus.hardware.camera@1.0 \
     vendor.oneplus.hardware.param@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
@@ -424,6 +432,8 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.dsp@1.0 \
     vendor.qti.hardware.vpp@1.1 \
     vendor.qti.hardware.vpp@1.2 \
+    vendor.qti.memory.pasrmanager@1.0 \
+    vendor.qti.memory.pasrmanager@1.1 \
     com.qti.sensor.imx371 \
     com.qti.sensor.imx376k \
     com.qti.sensor.imx519 \
@@ -493,6 +503,7 @@ PRODUCT_PACKAGES += \
     libaudcal \
     libaudio_log_utils \
     libaudioconfigstore \
+    libblur_halide \
     libc++_extra \
     libcamxfdalgov7 \
     libcamxfdengine \
@@ -569,7 +580,6 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.uceservice@2.1 \
     com.qualcomm.qti.uceservice@2.2 \
     com.qualcomm.qti.uceservice@2.3 \
-    android.hardware.bluetooth@1.0-impl-qti \
     android.hardware.gatekeeper@1.0-impl-qti \
     android.hardware.gnss@2.1-impl-qti \
     com.dsi.ant@1.0-impl \
@@ -598,14 +608,15 @@ PRODUCT_PACKAGES += \
     libGPTEE_vendor \
     libGPreqcancel \
     libGPreqcancel_svc \
-    libQSEEComAPI \
     libQTEEConnector_vendor \
     libSecureUILib \
     libStDrvInt \
     libadsp_default_listener \
     libaoa \
+    libasn1cper \
+    libasn1crt \
+    libasn1crtx \
     libbatching \
-    libbtnv \
     libcacertclient \
     libcdfw \
     libcdfw_remote_api \
@@ -613,7 +624,6 @@ PRODUCT_PACKAGES += \
     libcneapiclient \
     libcneoplookup \
     libcneqmiutils \
-    libconfigdb \
     libcpion \
     libdataitems \
     libdisp-aba \
@@ -626,6 +636,7 @@ PRODUCT_PACKAGES += \
     libgnss \
     libgnsspps \
     libgps.utils \
+    libhdcpsrm \
     libhdr_tm \
     libhexagon_nn_stub \
     libizat_client_api \
@@ -644,11 +655,9 @@ PRODUCT_PACKAGES += \
     liblowi_client \
     liblowi_wifihal \
     liblqe \
-    libmdmdetect \
     libmdmimgload \
     libminkdescriptor \
     libminksocket \
-    libnetmgr \
     libnetmgr_common \
     libnetmgr_nr_fusion \
     libnetmgr_rmnet_ext \
@@ -706,8 +715,9 @@ PRODUCT_PACKAGES += \
     libwms \
     libwqe \
     libwvhidl \
-    libxml \
     libxtadapter \
+    libxtwifi_server_protocol \
+    libxtwifi_server_protocol_uri_v3 \
     libwvdrmengine \
     qcrild_librilutils \
     qtibus \
@@ -742,6 +752,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.gnss@4.0-service \
     vendor.qti.gnss@4.0 \
     vendor.qti.hardware.alarm@1.0 \
+    vendor.qti.hardware.cacert@1.0 \
     vendor.qti.hardware.data.cne.internal.api@1.0 \
     vendor.qti.hardware.data.cne.internal.constants@1.0 \
     vendor.qti.hardware.data.cne.internal.server@1.0 \
@@ -800,8 +811,6 @@ PRODUCT_PACKAGES += \
     vendor.qti.imsrtpservice@3.0-service-Impl \
     vendor.qti.imsrtpservice@3.0-vendor \
     vendor.qti.latency@2.0 \
-    vendor.qti.memory.pasrmanager@1.0 \
-    vendor.qti.memory.pasrmanager@1.1 \
     capi_v2_aptX_Classic \
     capi_v2_aptX_HD \
     dirac_resource \
@@ -827,6 +836,7 @@ PRODUCT_PACKAGES += \
     libsns_low_lat_stream_skel \
     libthread_blur_skel \
     com.qualcomm.qti.dpm.api@1.0 \
+    libdiag_system \
     libdpmctmgr \
     libdpmfdmgr \
     libdpmframework \
@@ -858,7 +868,6 @@ PRODUCT_PACKAGES += \
     lib-imsvt \
     lib-imsvtextutils \
     lib-imsvtutils \
-    libdiag_system \
     libimscamera_jni \
     libimsmedia_jni \
     libwfdnative \
