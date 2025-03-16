@@ -480,6 +480,7 @@ PRODUCT_PACKAGES += \
     libgcs-ipc \
     libgcs-osal \
     libgcs \
+    libhalide_hexagon_host \
     liblistensoundmodel2 \
     libmm-hdcpmgr \
     libmmcamera_faceproc \
