@@ -387,7 +387,6 @@ PRODUCT_PACKAGES += \
     libvpphvx \
     libvpplibrary \
     libxml \
-    vendor.oneplus.hardware.camera@1.0 \
     vendor.oneplus.hardware.param@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.0 \
     vendor.qti.hardware.bluetooth_sar@1.1 \
@@ -688,7 +687,6 @@ PRODUCT_PACKAGES += \
     vendor.display.color@1.4 \
     vendor.display.color@1.5 \
     vendor.display.postproc@1.0 \
-    vendor.oneplus.hardware.CameraMDMHIDL@1.0 \
     vendor.oneplus.hardware.hdcpkey@1.0 \
     vendor.oneplus.hardware.ifaa@2.0 \
     vendor.qti.data.factory@2.0 \
