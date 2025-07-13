@@ -359,7 +359,6 @@ PRODUCT_PACKAGES += \
     libmmosal_vendor \
     libnetmgr \
     libopf \
-    libpvr \
     libqcci_legacy \
     libqcmaputils \
     libqdi \
@@ -585,6 +584,7 @@ PRODUCT_PACKAGES += \
     libdataitems \
     libdisp-aba \
     libdisplayqos \
+    libdisplayskuutils \
     libdpmqmihal \
     libdrmfs \
     libdrmtime \
@@ -643,8 +643,8 @@ PRODUCT_PACKAGES += \
     libril-qcril-hook-oem \
     librilqmiservices \
     librpmb \
-    libsdedrm \
     libsdm-color \
+    libsdm-colormgr-algo \
     libsdm-diag \
     libsdm-disp-vndapis \
     libsdmextension \
@@ -886,7 +886,6 @@ PRODUCT_PACKAGES += \
     lowi-server \
     mdm_helper \
     mlid \
-    mm-pp-dpps \
     msm_irqbalance \
     netmgrd \
     opf-service \
@@ -895,6 +894,7 @@ PRODUCT_PACKAGES += \
     pm-service \
     port-bridge \
     power_off_alarm \
+    ppd \
     qrtr-cfg \
     qrtr-lookup \
     qrtr-ns \
