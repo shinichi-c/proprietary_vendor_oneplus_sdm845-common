@@ -909,7 +909,6 @@ PRODUCT_PACKAGES += \
     thermal-engine \
     time_daemon \
     vppservice \
-    wfdhdcphalservice \
     wfdvndservice \
     wifidisplayhalservice \
     xtra-daemon \
